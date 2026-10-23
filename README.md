@@ -3,13 +3,6 @@
 
 Ứng dụng web quản lý danh mục nhà cung cấp, mặt hàng, tồn kho và lịch sử nhập/xuất. Hệ thống được triển khai bằng Docker Compose, sử dụng MySQL để lưu dữ liệu và tích hợp Prometheus, Grafana, Loki, Promtail để giám sát dịch vụ và tra cứu log.
 
-## Chức năng
-
-- Thêm nhà cung cấp với tên, số điện thoại và email.
-- Khai báo mặt hàng với SKU, tên, đơn giá và nhà cung cấp.
-- Ghi nhận giao dịch nhập hoặc xuất kho kèm số lượng và ghi chú.
-- Xem danh sách mặt hàng, nhà cung cấp, đơn giá và số lượng tồn.
-- Xem lịch sử nhập/xuất gần đây.
 - Theo dõi một số metrics của container và MySQL trên Grafana.
 - Tra cứu log container trong Grafana thông qua Loki và Promtail.
 
